@@ -10,5 +10,5 @@ const rootElement = document.getElementById("root");
 const render = (Component) => {
   createRoot(rootElement).render(<Clock />);
 };
-//test3
+//test
 render(App);
