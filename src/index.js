@@ -3,14 +3,14 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App";
 
-import Counter from "./react_practice_05/Counter";
+import UseRefTest from "./react_practice_06/UseRefTest";
 
 const rootElement = document.getElementById("root");
 
 const render = (Component) => {
   createRoot(rootElement).render(
     <StrictMode>
-      <Counter />
+      <UseRefTest />
     </StrictMode>
   );
 };

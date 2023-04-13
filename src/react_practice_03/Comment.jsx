@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const styles = {
   wrapper: {
@@ -33,6 +34,11 @@ const styles = {
 };
 
 function Comment(props) {
+  Comment.propTypes = {
+    name: PropTypes.string.isRequired,
+    comment: PropTypes.string.isRequired,
+  };
+
   return (
     <div style={styles.wrapper}>
       <div style={styles.imageContainer}>
