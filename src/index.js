@@ -3,14 +3,14 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App";
 
-import UseRefTest from "./react_practice_06/UseRefTest";
+import Accommodate from "./react_practice_07/Accommodate";
 
 const rootElement = document.getElementById("root");
 
 const render = (Component) => {
   createRoot(rootElement).render(
     <StrictMode>
-      <UseRefTest />
+      <Accommodate />
     </StrictMode>
   );
 };
