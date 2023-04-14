@@ -3,14 +3,14 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App";
 
-import Accommodate from "./react_practice_07/Accommodate";
+import TestButton from "./react_practice_08/TestButton";
 
 const rootElement = document.getElementById("root");
 
 const render = (Component) => {
   createRoot(rootElement).render(
     <StrictMode>
-      <Accommodate />
+      <TestButton />
     </StrictMode>
   );
 };
